@@ -1,0 +1,32 @@
+{
+  "name": "npmtest",
+  "version": "0.0.0",
+  "description": "Some NPM test.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdkamvar/npmtest.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Sep Kamvar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdkamvar/npmtest/issues"
+  },
+  "homepage": "https://github.com/sdkamvar/npmtest#readme"
+}
